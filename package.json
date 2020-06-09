@@ -1,0 +1,21 @@
+{
+  "name": "web-server-express",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.mjs",
+  "scripts": {
+    "start": "node --experimental-modules src/app.mjs",
+    "dev": "nodemon --experimental-modules src/app.mjs -e js,mjs,hbs"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "hbs": "^4.1.1",
+    "postman-request": "^2.88.1-postman.23"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.4"
+  }
+}
